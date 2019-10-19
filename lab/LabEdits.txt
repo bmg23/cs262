@@ -1,0 +1,64 @@
+Welcome to my lab application I will be going through
+youtube tutorials on Ionic by Joshua Morony. 
+URL: https://www.youtube.com/watch?v=7wNu9bc5Qcw&list=PLvLBrJpVwC7o9dVk88DQA2JT8lXVjgHca&index=1
+
+Lab 04: Lessons 0-2 
+
+Files Edited: 
+- Generated: edit-todo, services  
+- app-routing.module.ts
+
+Comments: 
+00 Introduction - Intro to lessons
+01 Anatomy - Generated a new application, blank project with angular 
+framework. Went through different files and their meaning. 
+02 Preparation - Genrated new pages. 
+
+
+Lab 05: Lessons 3-4 
+
+Files Edited: 
+- edit-todo.page.ts
+- created todo.ts 
+- todo.service.ts 
+
+Comments: 
+03 Decorators - Looked at the auto generated decorators and 
+what they do.
+04 Classes - created todo interface and added functions to todo.service,
+have not added any logic within the functions.
+
+
+Lab 06: Lessons 5-6 
+
+Files Edited: 
+- home.page.html
+- home.page.ts
+- todo.service.ts
+- edit-todo.page.html
+- edit-todo.page.ts
+
+
+Comments: 
+05 Templates - Changed the home page html. Made the front end to the edit-todo page.
+It does not have any functionality yet and must be navigated to via browser url. 
+06 Navigation - Added navigation functionality between Todo and Edit Todo. Grabbed Todo's 
+id and printed to console. Will add saving and loading data in next tutorial. 
+
+
+Lab 09: Lessons 7-10
+
+Files Edited: 
+- All html and main ts files in: edit-todo, 
+  home, services. 
+- theme/variable.scss
+- home.page.scss 
+- edit-todo.page.scss
+
+
+Comments: 
+07 Saving & Loading Data - Installed storage package for ionic and added functionality to 
+todo.service.ts. A lot of editing just from this video, added majority of functionality and 
+navigation tools. Also added ability for the app to save and load data. 
+08 Styling - Edited multiple scss files. 
+09 Capacitor, Cordova, and Ionic Native - went over packages needed for native support. 
