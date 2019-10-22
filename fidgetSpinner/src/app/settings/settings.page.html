@@ -1,0 +1,20 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/home"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Settings</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+    <ion-button expand="block" color="medium" (click)="changeTheme('autumn')">Autumn</ion-button>  
+    <ion-button expand="block" color="medium" (click)="changeTheme('night')">Dark</ion-button>
+    <ion-button expand="block" color="medium" (click)="changeTheme('neon')">Neon</ion-button>
+    <ion-button expand="block" color="medium" (click)="changeTheme('')">Default</ion-button>
+    <hr>
+
+    <ion-button color="success" (click)="changeSpeed(2000)">Slow</ion-button>
+    <ion-button color="danger" (click)="changeSpeed(500)">Fast</ion-button>
+    <hr>
+</ion-content>
